@@ -1659,35 +1659,25 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@budzswap-libs/budz-swap-core@https://github.com/budzswap/budz-swap-core.git":
+"@budzswap-libs/budz-swap-core@github:budzswap/budz-swap-core":
   version "0.1.0"
-  resolved "https://github.com/budzswap/budz-swap-core.git#c0edaa24cc6cdf1cdbc7706cbc3f80ccdc34a395"
+  resolved "https://codeload.github.com/budzswap/budz-swap-core/tar.gz/a470c7e7fc9378dd6029e4d8373a20f3fe4d5444"
   dependencies:
     truffle "^5.1.41"
     truffle-flattener "^1.4.4"
     truffle-hdwallet-provider "^1.0.17"
 
-"@budzswap-libs/sdk@https://github.com/budzswap/budz-swap-sdk.git":
+"@budzswap-libs/sdk@github:budzswap/budz-swap-sdk":
   version "1.0.0"
-  resolved "https://github.com/budzswap/budz-swap-sdk.git#9022b68003c46f88860bde02d28ad67efbd90b4d"
+  resolved "https://codeload.github.com/budzswap/budz-swap-sdk/tar.gz/ac1fe490779a57773ef5dc824fb773a07d25b861"
   dependencies:
-    "@budzswap-libs/budz-swap-core" "https://github.com/budzswap/budz-swap-core.git"
+    "@budzswap-libs/budz-swap-core" "github:budzswap/budz-swap-core"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
     jsbi "^3.1.1"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
-
-"@budzswap-libs/uikit@https://github.com/budzswap/budz-uikit.git":
-  version "0.1.1"
-  resolved "https://github.com/budzswap/budz-uikit.git#3d5fdcc086cc61725cadbe156fb36b3826dd177f"
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
@@ -3080,6 +3070,17 @@
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
+
+"@pantherswap-libs/uikit@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@pantherswap-libs/uikit/-/uikit-0.1.1.tgz#55e482c94df324e88254786178cf16c1028028a2"
+  integrity sha512-ymEKLfLSyD/HDq+C2PwUSbcG3DlBu7IQNutTnCwVgtpmYrK/TchfTJ4lCNG09y4kDgDoCLMwYjnTIaTYFgLN6w==
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
 
 "@pedrouid/iso-crypto@^1.0.0":
   version "1.0.0"
