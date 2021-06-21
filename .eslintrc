@@ -1,8 +1,8 @@
 {
   "settings": {
-    "import/resolver": {
+    "import/resolver": {      
       "node": {
-        "paths": ["./src"],
+        "paths": ["src/", "./src","node_modules"],
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     }
